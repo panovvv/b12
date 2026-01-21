@@ -6,9 +6,13 @@ authors = [
     {name = "Vadim",email = "headcra6@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
+    "requests",
 ]
+
+[tool.poetry.group.dev.dependencies]
+black = ">=26.1.0,<27.0.0"
 
 
 [build-system]
